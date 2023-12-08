@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Testinomial from './components/Testinomial';
+import reviews from './data'
 function App() {
   return (
     <div className="App">
-      <p className='bg-red-400'>HIii</p>
+      <h1>Our Testinomial</h1>
+      <div></div>
+      <Testinomial reviews= {reviews} />
     </div>
   );
 }
-
 export default App;
